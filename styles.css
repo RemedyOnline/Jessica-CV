@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .hero {
   background-image: url(./images/bg-image.jpg);
   background-size: cover;
@@ -13,13 +19,31 @@
     display: flex; */
 }
 
-.navbar {
-  background-color: rgba(194, 194, 194, 0.438);
-}
+/* .navbar {
+} */
 
 .myImage {
   z-index: 1;
 }
+
 .details {
   margin-top: -48px;
+}
+
+.school-logo {
+  height: 16vh;
+}
+
+.school1,
+.school2,
+.school3,
+.school4 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.studyDuration {
+  width: fit-content;
+  color: #999;
 }
